@@ -159,8 +159,14 @@ main {
 
 .footer a {
    text-decoration: none;
-   color: #ffd05b;
+   
    font-size: 3rem;
+   display: flex;
+   align-items: center;
+}
+
+.footer i {
+   color: #ffd05b;
 }
 
 .email,
@@ -169,10 +175,13 @@ main {
    align-items: center;
 }
 
+
+
 .footer h2 {
    margin-left: 1.5rem;
    font-size: 2rem;
    font-weight: 600;
+   color: #2C2C2C;
 }
 
 @media only screen and (max-width: 768px) {
