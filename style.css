@@ -36,6 +36,7 @@ html {
 body {
    box-sizing: border-box;
    font-family: 'Inter', sans-serif;
+   color: #2C2C2C;
 }
 
 main {
@@ -83,7 +84,6 @@ main {
 .cardTitle {
    font-size: 4rem;
    font-weight: bold;
-   color: #000;
    text-align: center;
    padding: 20px;
 }
@@ -124,6 +124,7 @@ main {
    padding: 0 1rem;
    background-color: #fff;
    opacity: 1;
+   color: inherit;
 }
 .inputBox button {
    width: 30%;
