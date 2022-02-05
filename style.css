@@ -36,7 +36,7 @@ html {
 body {
    box-sizing: border-box;
    font-family: 'Inter', sans-serif;
-   color: #2C2C2C;
+   color: #2c2c2c;
 }
 
 main {
@@ -137,6 +137,10 @@ main {
 }
 
 .inputBox button:hover {
+   background-color: #f9c950;
+}
+
+.inputBox button:active {
    background-color: #f5c03a;
 }
 
@@ -163,7 +167,7 @@ main {
 
 .footer a {
    text-decoration: none;
-   
+
    font-size: 3rem;
    display: flex;
    align-items: center;
@@ -179,46 +183,44 @@ main {
    align-items: center;
 }
 
-
-
 .footer h2 {
    margin-left: 1.5rem;
    font-size: 2rem;
    font-weight: 600;
-   color: #2C2C2C;
+   color: #2c2c2c;
 }
 
 @media only screen and (max-width: 768px) {
-    .header {
-       justify-content: center;
-       top: 80px;
-    }
-    .header img {
-        width: 250px;
-    }
-    .card {
-        width: 95%;
-        max-width: 700px;
-        background: rgba(243, 243, 243, 0.23);
-        backdrop-filter: blur(10px);
-        border-radius: 20px;
-        padding: 3rem 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+   .header {
+      justify-content: center;
+      top: 80px;
+   }
+   .header img {
+      width: 250px;
+   }
+   .card {
+      width: 95%;
+      max-width: 700px;
+      background: rgba(243, 243, 243, 0.23);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 3rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
 
-    .cardTitle {
-       font-size: 3rem;
-       padding: 0;
-       margin-bottom: 1rem;
-    }
+   .cardTitle {
+      font-size: 3rem;
+      padding: 0;
+      margin-bottom: 1rem;
+   }
 
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
- }
+   .footer {
+      flex-direction: column;
+      align-items: center;
+   }
+}
 
 @media only screen and (max-width: 1000px) {
    .header {
