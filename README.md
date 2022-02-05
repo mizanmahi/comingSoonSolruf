@@ -1,1 +1,1 @@
-# Solruf is coming soon
+# Solruf's coming soon page
