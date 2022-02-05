@@ -136,6 +136,10 @@ main {
    cursor: pointer;
 }
 
+.inputBox button:hover {
+   background-color: #f5c03a;
+}
+
 .social {
    width: 70%;
    display: flex;
